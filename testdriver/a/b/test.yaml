@@ -3,4 +3,4 @@ steps:
   - prompt: snippet run
     commands:
       - command: run
-        file: snippet.yaml
+        file: ../../snippet.yaml
