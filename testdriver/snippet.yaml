@@ -1,0 +1,7 @@
+steps:
+  - prompt: snippet postrun
+    commands:
+    - command: exec
+      lang: js
+      output: validation_result
+      code: throw new Error('Validation failed')

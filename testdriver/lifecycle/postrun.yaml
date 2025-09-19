@@ -1,0 +1,6 @@
+steps:
+  - prompt: POSTRUN RUNNING
+    commands:
+      - command: exec
+        lang: pwsh
+        code: echo "POSTRUN"
